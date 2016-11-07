@@ -92,10 +92,10 @@ CONFIG_DEBUG_MODE=n
 
 # Server on which to install OpenStack services specific to the
 # controller role (for example, API servers or dashboard).
-CONFIG_CONTROLLER_HOST=192.168.10.2
+CONFIG_CONTROLLER_HOST=$HOST_IP_ADDR
 
 # List the servers on which to install the Compute service.
-CONFIG_COMPUTE_HOSTS=192.168.10.2
+CONFIG_COMPUTE_HOSTS=$HOST_IP_ADDR
 
 # List of servers on which to install the network service such as
 # Compute networking (nova network) or OpenStack Networking (neutron).
